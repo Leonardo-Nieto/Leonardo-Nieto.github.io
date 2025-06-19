@@ -4,7 +4,7 @@ body {
     margin: 0;
     padding: 0;
     background-color: #0f0e0e;
-          background-image: url(blanco5.jpg);
+          background-image: url(blanco1.jpg);
     background-position: center center;
     background-repeat: no repeat;
     background-size: cover;
@@ -31,28 +31,28 @@ section {
 
 .collage-container {
     display: flex;
-    flex-wrap: wrap; /* Permite que las imágenes se ajusten al espacio */
-    justify-content: center; /* Centra las imágenes horizontalmente */
-    gap: 20px; /* Espacio entre las imágenes */
+    flex-wrap: wrap; 
+    justify-content: center; 
+    gap: 20px; 
     padding: 20px;
 }
 
 .image-item {
     position: relative;
-    width: 200px; /* Ajusta el tamaño de las imágenes */
-    height: 200px; /* Ajusta el tamaño de las imágenes */
-    overflow: hidden; /* Asegura que el contenido no se desborde */
+    width: 200px; 
+    height: 200px; 
+    overflow: hidden; 
 }
 
 .image-item img {
     width: 100%;
     height: 100%;
-    object-fit: cover; /* Cubre el espacio manteniendo la proporción */
-    transition: transform 0.3s ease; /* Efecto de transición suave */
+    object-fit: cover; 
+    transition: transform 0.3s ease; 
 }
 
 .image-item:hover img {
-    transform: scale(1.1); /* Efecto de zoom al pasar el ratón */
+    transform: scale(1.1); 
 }
 
 .overlay {
@@ -61,30 +61,30 @@ section {
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(0, 0, 0, 0.7); /* Fondo semitransparente */
+    background-color: rgba(0, 0, 0, 0.7); 
     color: #fff;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    opacity: 0; /* Inicialmente invisible */
-    transition: opacity 0.3s ease; /* Efecto de transición suave */
+    opacity: 0; 
+    transition: opacity 0.3s ease;
 }
 
 .image-item:hover .overlay {
-    opacity: 1; /* Muestra la información al pasar el ratón */
+    opacity: 1; 
 }
 
-/* Filtros (ejemplos) */
+
 .image-item img:nth-child(1) {
-    filter: grayscale(50%); /* Escala de grises */
+    filter: grayscale(50%); 
 }
 
 .image-item img:nth-child(2) {
-    filter: blur(2px); /* Desenfoque */
+    filter: blur(2px); 
 }
 
-/* Más estilos para las secciones de créditos e inspiración */
+
 #creditos, #inspiracion {
     background-color: #fff;
     border: 1px solid #ddd;
