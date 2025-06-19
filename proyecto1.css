@@ -1,0 +1,35 @@
+body {
+    margin: 0;
+    font-family: monospace;
+    background-color: #190303;
+    background-image: url(city.jpg);
+    background-position: center center;
+    background-repeat: no repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.navbar-basic {
+    background: radial-gradient(circle at center, #000000, #400e41, #450e36);
+    padding: 15px 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.nav-list-basic {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 50px;
+}
+.nav-list-basic li a{
+    text-decoration: none;
+    color: rgb(237, 226, 226);
+    padding: 10px 15px;
+    display: block;
+    transition: background-color 0.3s ease;
+}
+.nav-list-basic li a:hover {
+    background-color: rgb(11, 4, 9);
+    border-radius: 8px;
+}
